@@ -1,0 +1,360 @@
+
+/* Global Settings **********************************************************************************************************/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/********************************************************************************************************************/
+
+
+
+/* Loading Animation */
+
+#loadingAnimation {
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    margin: 0 auto;
+    border: 16px solid #f3f3f3; 
+    border-top: 16px solid #3498db;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    display: none;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/********************************************************************************************************************/
+
+
+
+/* TopNav *********************************************************************************************************************/
+
+#topNavBarContainer{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 80px;
+    background-color: #685858;
+}
+
+#topNavOptionsContainer{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#iconContainer{
+    width: 50px;
+    height: 100%;
+    margin-left: 5%;
+    background: url("../img/foodIcon.png") center no-repeat;
+    background-size: contain;
+}
+
+#titleContainer{
+    width: 15%;
+    margin: 0 2.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#searchInputContainer{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#searchInputItems{
+    height: 50%;
+    display: flex;
+}
+
+#searchInput{
+    width: 200px;
+    border: 2px #a8a8a8 solid;
+    text-align: center;
+}
+
+#searchInput::placeholder{
+    text-align: center;
+}
+
+#searchInput:focus::placeholder{
+    opacity: 0;
+}
+
+#searchConfirm{
+    width: 50px;
+    background: url("../img/searchConfirm.png") center no-repeat;
+    background-color: #e2e2e2;
+    background-size: contain;
+    border: 2px #a8a8a8 solid;
+    border-left: none;
+
+}
+
+#searchExample{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+/********************************************************************************************************************/
+
+
+
+
+/* Containers ***********************************************************************************************************/
+
+#mainContainer{
+    width: 100vw;
+    height: 100vh;
+}
+
+#contentContainer{
+    width: 80%;
+    height: 100%;
+    margin: 100px auto;
+    display: none;
+}
+
+#defaultLandingDisplay{
+    width: 80%;
+    height: 80%;
+    margin-top: 125px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#defaultLandingTextHolder{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#defaultLandingText{
+    width: 100%;
+    height: 50%;
+    font-size: 38px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #4d4a4a;
+    color: #FFFFFF;
+}
+
+#defaultLandingText div{
+    font-size: 18px;
+}
+
+
+
+/********************************************************************************************************************/
+
+
+
+
+/* Character Heading *****************************************************************************************************/
+
+#ingredientHeadingContainer{
+    width: 100%;
+    height: 20%;
+}
+
+#ingredientHeadingLayout{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#ingredientHeadingTextAreas{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+
+}
+
+#ingredientName{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold
+}
+
+#servingsCaloriesSource{
+    width: 100%;
+    height: 50%;
+    display: none;
+    justify-content: space-between;
+}
+
+#servingsCaloriesSource.flex{
+    display: flex;
+}
+
+.mainIconsStyling{
+    width: 32%;
+    height: 100%;
+    display: flex;
+}
+
+.mainIconHolder{
+    width: 28%;
+    height: 100%;
+}
+
+.mainIconSideText{
+    width: 66%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+#mainIconServings{
+    background: url("../img/servings.png") center no-repeat;
+    background-size: contain;
+}
+
+#mainIconCalories{
+    background: url("../img/calories.png") center no-repeat;
+    background-size: contain;
+}
+
+#mainIconSource{
+    background: url("../img/source.png") center no-repeat;
+    background-size: contain;
+}
+
+
+/********************************************************************************************************************/
+
+
+
+
+
+/* Recipe Container ********************************************************************************************************/
+
+#recipeContainer{
+    width: 100%;
+    height: 80%;
+    margin-top: 3%;
+    display: flex;
+}
+
+#sideTabContainer{
+    height: 100%;
+    width: 30%;
+    background-color: #4d4a4a;
+}
+
+.sideTabStyle{
+    height: 70px;
+    color: #FFFFFF;
+    border: 2px solid #4d4a4a;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.sideTabStyle:hover{
+    color: #4d4a4a;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+#recipeDisplayContainer{
+    height: 100%;
+    width: 70%;
+}
+
+#instructionText{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#recipeLayoutHolder{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 18px;
+}
+
+#recipeImg{
+    min-height: 150px;
+    width: 30%;
+    margin: 0 auto;
+}
+
+#recipeIngredientsHolder{
+    padding: 2%;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; 
+    height: 40%;
+}
+
+
+#recipeImgHolder, #recipeTitleHolder, #recipeWeight, #recipeInstructions{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;  
+}
+
+#recipeTitleHolder{
+    font-size: 34px;
+}
+
+#instructionText{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+#recipeImgHolder, #recipeWeight, #recipeInstructions{
+    font-size: 22px;
+}
+
+
+/********************************************************************************************************************/

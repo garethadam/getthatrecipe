@@ -1,0 +1,90 @@
+[01-Nov-2018 14:17:57 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'id7703696_getthatrecipeadmin'@'localhost' (using password: YES) in /home/kzdbix94pcav/public_html/getthatrecipe/model/dbConnect.php:7
+Stack trace:
+#0 /home/kzdbix94pcav/public_html/getthatrecipe/model/dbConnect.php(7): PDO->__construct('mysql:dbname=id...', 'id7703696_getth...', 'zbhqrt4n')
+#1 /home/kzdbix94pcav/public_html/getthatrecipe/results.php(10): require('/home/kzdbix94p...')
+#2 {main}
+  thrown in /home/kzdbix94pcav/public_html/getthatrecipe/model/dbConnect.php on line 7
+[01-Nov-2018 14:18:51 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'id7703696_getthatrecipeadmin'@'localhost' (using password: YES) in /home/kzdbix94pcav/public_html/getthatrecipe/model/dbConnect.php:7
+Stack trace:
+#0 /home/kzdbix94pcav/public_html/getthatrecipe/model/dbConnect.php(7): PDO->__construct('mysql:dbname=id...', 'id7703696_getth...', 'zbhqrt4n')
+#1 /home/kzdbix94pcav/public_html/getthatrecipe/results.php(10): require('/home/kzdbix94p...')
+#2 {main}
+  thrown in /home/kzdbix94pcav/public_html/getthatrecipe/model/dbConnect.php on line 7
+[01-Nov-2018 14:22:45 UTC] PHP Notice:  Undefined offset: 0 in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 14
+[01-Nov-2018 14:22:45 UTC] PHP Notice:  Undefined offset: 1 in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 15
+[01-Nov-2018 14:22:45 UTC] PHP Notice:  Undefined variable: clientID in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 22
+[01-Nov-2018 14:22:45 UTC] PHP Notice:  Undefined variable: clientKey in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 22
+[01-Nov-2018 14:23:32 UTC] PHP Notice:  Undefined offset: 0 in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 14
+[01-Nov-2018 14:23:32 UTC] PHP Notice:  Undefined offset: 1 in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 15
+[01-Nov-2018 14:23:32 UTC] PHP Notice:  Undefined variable: clientID in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 22
+[01-Nov-2018 14:23:32 UTC] PHP Notice:  Undefined variable: clientKey in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 22
+[01-Nov-2018 14:25:04 UTC] PHP Notice:  Undefined offset: 0 in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 14
+[01-Nov-2018 14:25:04 UTC] PHP Notice:  Undefined offset: 1 in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 15
+[01-Nov-2018 14:25:04 UTC] PHP Notice:  Undefined variable: clientID in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 22
+[01-Nov-2018 14:25:04 UTC] PHP Notice:  Undefined variable: clientKey in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 23
+[01-Nov-2018 14:25:50 UTC] PHP Notice:  Undefined offset: 0 in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 14
+[01-Nov-2018 14:25:50 UTC] PHP Notice:  Undefined offset: 1 in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 15
+[01-Nov-2018 14:25:50 UTC] PHP Notice:  Undefined variable: clientID in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 22
+[01-Nov-2018 14:25:50 UTC] PHP Notice:  Undefined variable: clientKey in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 23
+[01-Nov-2018 14:27:17 UTC] PHP Notice:  Undefined offset: 0 in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 14
+[01-Nov-2018 14:27:17 UTC] PHP Notice:  Undefined offset: 1 in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 15
+[01-Nov-2018 14:27:17 UTC] PHP Notice:  Undefined variable: clientID in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 22
+[01-Nov-2018 14:27:17 UTC] PHP Notice:  Undefined variable: clientKey in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 23
+[01-Nov-2018 14:28:33 UTC] PHP Notice:  Undefined offset: 0 in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 14
+[01-Nov-2018 14:28:33 UTC] PHP Notice:  Undefined offset: 1 in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 15
+[01-Nov-2018 14:28:33 UTC] PHP Notice:  Undefined variable: clientID in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 23
+[01-Nov-2018 14:28:33 UTC] PHP Notice:  Undefined variable: clientKey in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 23
+[01-Nov-2018 14:29:08 UTC] PHP Notice:  Undefined offset: 0 in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 14
+[01-Nov-2018 14:29:08 UTC] PHP Notice:  Undefined offset: 1 in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 15
+[01-Nov-2018 14:29:08 UTC] PHP Notice:  Undefined variable: clientID in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 25
+[01-Nov-2018 14:29:08 UTC] PHP Notice:  Undefined variable: clientKey in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 25
+[01-Nov-2018 14:29:09 UTC] PHP Notice:  Undefined offset: 0 in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 14
+[01-Nov-2018 14:29:09 UTC] PHP Notice:  Undefined offset: 1 in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 15
+[01-Nov-2018 14:29:09 UTC] PHP Notice:  Undefined variable: clientID in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 25
+[01-Nov-2018 14:29:09 UTC] PHP Notice:  Undefined variable: clientKey in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 25
+[01-Nov-2018 14:29:11 UTC] PHP Notice:  Undefined offset: 0 in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 14
+[01-Nov-2018 14:29:11 UTC] PHP Notice:  Undefined offset: 1 in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 15
+[01-Nov-2018 14:29:11 UTC] PHP Notice:  Undefined variable: clientID in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 25
+[01-Nov-2018 14:29:11 UTC] PHP Notice:  Undefined variable: clientKey in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 25
+[01-Nov-2018 14:30:03 UTC] PHP Notice:  Undefined variable: clientID in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 25
+[01-Nov-2018 14:30:03 UTC] PHP Notice:  Undefined variable: clientKey in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 25
+[01-Nov-2018 14:30:30 UTC] PHP Warning:  require(/model/dbConnect.php): failed to open stream: No such file or directory in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 10
+[01-Nov-2018 14:30:30 UTC] PHP Fatal error:  require(): Failed opening required '/model/dbConnect.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 10
+[01-Nov-2018 14:30:56 UTC] PHP Warning:  require(../model/dbConnect.php): failed to open stream: No such file or directory in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 10
+[01-Nov-2018 14:30:56 UTC] PHP Fatal error:  require(): Failed opening required '../model/dbConnect.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 10
+[01-Nov-2018 14:31:35 UTC] PHP Parse error:  syntax error, unexpected '$clientID' (T_VARIABLE) in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 17
+[01-Nov-2018 14:32:02 UTC] PHP Notice:  Undefined variable: clientID in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 25
+[01-Nov-2018 14:32:02 UTC] PHP Notice:  Undefined variable: clientKey in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 25
+[01-Nov-2018 14:32:50 UTC] PHP Notice:  Undefined variable: clientID in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 28
+[01-Nov-2018 14:32:50 UTC] PHP Notice:  Undefined variable: clientKey in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 28
+[01-Nov-2018 14:33:48 UTC] PHP Notice:  Undefined variable: clientID in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 24
+[01-Nov-2018 14:33:48 UTC] PHP Notice:  Undefined variable: client in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 24
+[02-Nov-2018 10:43:14 UTC] PHP Notice:  Undefined variable: clientID in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 24
+[02-Nov-2018 10:43:14 UTC] PHP Notice:  Undefined variable: client in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 24
+[02-Nov-2018 10:43:18 UTC] PHP Notice:  Undefined variable: clientID in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 24
+[02-Nov-2018 10:43:18 UTC] PHP Notice:  Undefined variable: client in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 24
+[02-Nov-2018 10:43:25 UTC] PHP Notice:  Undefined variable: clientID in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 24
+[02-Nov-2018 10:43:25 UTC] PHP Notice:  Undefined variable: client in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 24
+[02-Nov-2018 10:43:32 UTC] PHP Notice:  Undefined variable: clientID in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 24
+[02-Nov-2018 10:43:32 UTC] PHP Notice:  Undefined variable: client in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 24
+[02-Nov-2018 10:44:40 UTC] PHP Notice:  Undefined variable: clientID in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 24
+[02-Nov-2018 10:44:40 UTC] PHP Notice:  Undefined variable: client in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 24
+[02-Nov-2018 10:44:40 UTC] PHP Notice:  Undefined variable: clientID in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 24
+[02-Nov-2018 10:44:40 UTC] PHP Notice:  Undefined variable: client in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 24
+[02-Nov-2018 10:44:41 UTC] PHP Notice:  Undefined variable: clientID in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 24
+[02-Nov-2018 10:44:41 UTC] PHP Notice:  Undefined variable: client in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 24
+[02-Nov-2018 10:44:41 UTC] PHP Notice:  Undefined variable: clientID in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 24
+[02-Nov-2018 10:44:41 UTC] PHP Notice:  Undefined variable: client in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 24
+[02-Nov-2018 10:48:00 UTC] PHP Notice:  Undefined variable: clientID in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 24
+[02-Nov-2018 10:48:00 UTC] PHP Notice:  Undefined variable: clientKey in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 24
+[02-Nov-2018 10:51:15 UTC] PHP Warning:  file_get_contents(https://api.edamam.com/search?q=chicken&amp;app_id=92853afa&amp;app_key=4f14c331d943e4fb41e3d68cd38cecf2): failed to open stream: HTTP request failed! HTTP/1.1 401 Unauthorized
+ in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 22
+[02-Nov-2018 10:52:38 UTC] PHP Parse error:  syntax error, unexpected 'https' (T_STRING) in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 21
+[02-Nov-2018 10:52:59 UTC] PHP Warning:  file_get_contents(https://api.edamam.com/search?q=chicken&amp;app_id=92853afa&amp;app_key=4f14c331d943e4fb41e3d68cd38cecf2&amp;from=0&amp;to=3&amp;calories=591-722&amp;health=alcohol-free): failed to open stream: HTTP request failed! HTTP/1.1 401 Unauthorized
+ in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 22
+[02-Nov-2018 11:15:36 UTC] PHP Warning:  Use of undefined constant recipe - assumed 'recipe' (this will throw an Error in a future version of PHP) in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 20
+[02-Nov-2018 11:15:36 UTC] PHP Warning:  Use of undefined constant label - assumed 'label' (this will throw an Error in a future version of PHP) in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 20
+[02-Nov-2018 11:16:08 UTC] PHP Warning:  Use of undefined constant recipe - assumed 'recipe' (this will throw an Error in a future version of PHP) in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 20
+[02-Nov-2018 11:16:08 UTC] PHP Warning:  Use of undefined constant label - assumed 'label' (this will throw an Error in a future version of PHP) in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 20
+[02-Nov-2018 11:16:08 UTC] PHP Warning:  Illegal string offset 'recipe' in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 20
+[02-Nov-2018 11:16:08 UTC] PHP Warning:  Illegal string offset 'label' in /home/kzdbix94pcav/public_html/getthatrecipe/results.php on line 20
